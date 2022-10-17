@@ -27,11 +27,11 @@ AlertCount -- the number of alerts in the current group
 
 Proto -- numerical protocol ID (e.g., 6 denotes TCP and 17 UDP)
 
-ExtIP -- anonymized external IP address (extip<number>)
+ExtIP -- anonymized external IP address (extipN, where N is a number that identifies the given IP address)
 
 ExtPort -- port at the external host, set to -1 if alerts involved multiple external ports
 
-IntIP -- anonymized internal IP address (intip<number>), set to -1 if alerts involved multiple internal IP addresses
+IntIP -- anonymized internal IP address (intipN, where N is a number that identifies the given IP address), set to -1 if alerts involved multiple internal IP addresses
 
 IntPort -- port at the internal host, set to -1 if alerts involved multiple internal ports
 
@@ -41,7 +41,7 @@ Label -- label assigned by a human (0 denotes irrelevant and 1 important)
 
 SCAS -- label assigned by SCAS (0 denotes inlier and 1 outlier)
 
-<attribute>Similarity -- similarity for the attribute <attribute>, set to -1 if the <attribute> is not set for the given signature. The field indicates how often has the attribute value been observed in other alert groups from the same cluster (or in other outlier alert groups if the current alert group is an outlier) 
+AttrSimilarity -- similarity for the attribute Attr, set to -1 if the attribute Attr is not set for the given signature. The field indicates how often has the attribute value been observed in other alert groups from the same cluster (or in other outlier alert groups if the current alert group is an outlier) 
 
 
 Author
