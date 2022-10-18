@@ -48,7 +48,7 @@ AttrSimilarity -- similarity for the network IDS alert attribute Attr. Set to -1
 
 Licensing
 ---------
-NIDS Alert Group Data Set (c) by Risto Vaarandi
+NIDS Alert Group Data Set, Copyright (C) 2022, Risto Vaarandi
 
 NIDS Alert Group Data Set is licensed under a Creative Commons Attribution 4.0 International License.
 
