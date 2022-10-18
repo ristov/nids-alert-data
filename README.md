@@ -17,7 +17,7 @@ Data set fields
 ---------------
 Each data point has 47 fields and their description is given below:
 
-Timestamp -- alert group reporting time (seconds since Epoch)
+Timestamp -- alert group reporting time
 
 SignatureText -- human readable alert text
 
