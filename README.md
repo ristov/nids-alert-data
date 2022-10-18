@@ -46,7 +46,7 @@ AttrSimilarity -- similarity for the attribute Attr. Set to -1 if the attribute 
 
 Licensing
 ---------
-This NIDS alert group data set is available under the terms of Creative Common Attribution 4.0 International license (https://creativecommons.org/licenses/by/4.0/)
+This NIDS alert group data set is available under the terms of Creative Commons Attribution 4.0 International license (https://creativecommons.org/licenses/by/4.0/)
 
 
 Author
