@@ -43,7 +43,7 @@ Label -- label assigned by a human (0 denotes irrelevant and 1 important)
 
 SCAS -- label assigned by the customized version of SCAS (0 denotes inlier and 1 outlier)
 
-AttrSimilarity -- similarity for the attribute Attr. Set to -1 if the attribute Attr is not set for the given signature, otherwise ranges from 0 to 1. The field indicates how often has the attribute value been observed in other alert groups from the same cluster (or in other outlier alert groups if the current alert group is an outlier) 
+AttrSimilarity -- similarity for the network IDS alert attribute Attr. Set to -1 if the attribute Attr is not set for the given signature, otherwise ranges from 0 to 1. The field indicates how often has the attribute value been observed in other alert groups from the same cluster (or in other outlier alert groups if the current alert group is an outlier) 
 
 
 Licensing
