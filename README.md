@@ -23,7 +23,7 @@ SignatureID -- numerical signature ID
 
 SignatureMatchesPerDay -- average number of matches per day by the signature that produced the current alert group
 
-AlertCount -- the number of alerts in the current group
+AlertCount -- the number of alerts in the current alert group
 
 Proto -- numerical protocol ID (e.g., 6 denotes TCP and 17 UDP)
 
@@ -49,6 +49,7 @@ Licensing
 NIDS Alert Group Data Set (c) by Risto Vaarandi
 
 NIDS Alert Group Data Set is licensed under a Creative Commons Attribution 4.0 International License.
+
 You should have received a copy of the license along with this work. If not, see https://creativecommons.org/licenses/by/4.0/.
 
 
