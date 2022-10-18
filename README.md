@@ -44,6 +44,11 @@ SCAS -- label assigned by SCAS (0 denotes inlier and 1 outlier)
 AttrSimilarity -- similarity for the attribute Attr. Set to -1 if the attribute Attr is not set for the given signature, otherwise ranges from 0 to 1. The field indicates how often has the attribute value been observed in other alert groups from the same cluster (or in other outlier alert groups if the current alert group is an outlier) 
 
 
+Licensing
+---------
+This NIDS alert group data set is available under the terms of Creative Common Attribution 4.0 International license (https://creativecommons.org/licenses/by/4.0/)
+
+
 Author
 ------
 Risto Vaarandi (ristov at users d0t s0urcef0rge d0t net)
