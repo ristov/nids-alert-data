@@ -23,7 +23,7 @@ SignatureText -- human readable alert text
 
 SignatureID -- numerical signature ID
 
-SignatureMatchesPerDay -- average number of matches per day by the signature that produced the current alert group
+SignatureMatchesPerDay -- average number of matches per day by the signature that produced the current alert group (set to 0 if the signature has produced its first match less than 24 hours ago)
 
 AlertCount -- the number of alerts in the current alert group
 
