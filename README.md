@@ -57,4 +57,4 @@ You should have received a copy of the license along with this work. If not, see
 
 Author
 ------
-Risto Vaarandi (ristov at users d0t s0urcef0rge d0t net)
+Risto Vaarandi (firstname d0t lastname at gmail d0t c0m)
