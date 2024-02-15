@@ -46,6 +46,15 @@ SCAS -- label assigned by the customized version of SCAS (0 denotes inlier and 1
 AttrSimilarity -- similarity for the network IDS alert attribute Attr (there are 34 attributes in total). Set to -1 if the attribute Attr is not set for the given signature, otherwise ranges from 0 to 1. The field indicates how often has the attribute value been observed in other alert groups from the same cluster (or in other outlier alert groups if the current alert group is an outlier) 
 
 
+Academic attribution
+--------------------
+The creation of the data set has been described in the following paper:
+
+Risto Vaarandi and Alejandro Guerra-Manzanares, "Stream clustering guided supervised learning for classifying NIDS alerts," Future Generation Computer Systems, 2024, https://doi.org/10.1016/j.future.2024.01.032
+
+When you publish research results that have involved the use of the data set, please provide a reference to the above paper in your publication.
+
+
 Licensing
 ---------
 NIDS Alert Group Data Set, Copyright (C) 2022 Risto Vaarandi
