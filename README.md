@@ -52,7 +52,7 @@ The creation of the data set has been described in the following paper:
 
 Risto Vaarandi and Alejandro Guerra-Manzanares, "Stream clustering guided supervised learning for classifying NIDS alerts," Future Generation Computer Systems, 2024, https://doi.org/10.1016/j.future.2024.01.032
 
-Also, the following paper describes the use of the data set for active learning based NIDS alert classification:
+Also, the following paper describes the experiments with the data set for active learning based NIDS alert classification:
 
 Risto Vaarandi and Alejandro Guerra-Manzanares, "Network IDS alert classification with active learning techniques," Journal of Information Security and Applications, 2024, https://doi.org/10.1016/j.jisa.2023.103687
 
