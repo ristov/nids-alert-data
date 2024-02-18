@@ -4,7 +4,7 @@ NIDS Alert Group Data Set
 
 Introduction
 ------------
-This repository hosts NIDS Alert Group Data Set that is stored in the file dataset-labeled-anon-ip.csv.bz2.
+This repository hosts the NIDS Alert Group Data Set that is stored in the file dataset-labeled-anon-ip.csv.bz2.
 
 The data set covers 60 days (January 2022 -- March 2022) and was produced with the customized version of the SCAS algorithm (https://github.com/ristov/nids-alert-proc). The data set was collected on the external network perimeter of a large institution and contains over 1.3 million data points. Each data point represents a group of one or more network IDS alerts generated for the same external IP address and for the same signature in a short time frame (the maximum size of the time frame is 5 minutes).
 
@@ -39,7 +39,7 @@ IntPort -- port at the internal host, set to -1 if alerts involved multiple inte
 
 Similarity -- overall similarity with other alert groups from the same cluster (or with other outlier alert groups if the current alert group is an outlier), ranges from 0 to 1 (values close to 1 denote a high degree of similarity)
 
-Label -- label assigned by a human (0 denotes irrelevant and 1 important)
+Label -- ground-truth label assigned by a human (0 denotes irrelevant and 1 important)
 
 SCAS -- label assigned by the customized version of SCAS (0 denotes inlier and 1 outlier)
 
@@ -48,7 +48,7 @@ AttrSimilarity -- similarity for the network IDS alert attribute Attr (there are
 
 Academic attribution
 --------------------
-The creation of the data set has been described in the following paper:
+The creation of the NIDS Alert Group Data Set has been described in the following paper:
 
 Risto Vaarandi and Alejandro Guerra-Manzanares, "Stream clustering guided supervised learning for classifying NIDS alerts," Future Generation Computer Systems, 2024, https://doi.org/10.1016/j.future.2024.01.032
 
