@@ -53,11 +53,11 @@ Academic attribution
 --------------------
 The creation of the NIDS Alert Group Data Set has been described in the following paper:
 
-Risto Vaarandi and Alejandro Guerra-Manzanares, "Stream clustering guided supervised learning for classifying NIDS alerts," Future Generation Computer Systems, vol.155, 2024, https://doi.org/10.1016/j.future.2024.01.032
+Risto Vaarandi and Alejandro Guerra-Manzanares, "Stream clustering guided supervised learning for classifying NIDS alerts," Future Generation Computer Systems, vol. 155, 2024, https://doi.org/10.1016/j.future.2024.01.032
 
 Also, the following paper describes the experiments with the data set for active learning based NIDS alert classification:
 
-Risto Vaarandi and Alejandro Guerra-Manzanares, "Network IDS alert classification with active learning techniques," Journal of Information Security and Applications, vol.81, 2024, https://doi.org/10.1016/j.jisa.2023.103687
+Risto Vaarandi and Alejandro Guerra-Manzanares, "Network IDS alert classification with active learning techniques," Journal of Information Security and Applications, vol. 81, 2024, https://doi.org/10.1016/j.jisa.2023.103687
 
 When you publish research results that have involved the use of the data set, please provide a reference to one of the above papers in your publication.
 
