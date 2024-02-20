@@ -44,6 +44,7 @@ Label -- ground-truth label assigned by a human (0 denotes irrelevant and 1 impo
 SCAS -- label assigned by the customized version of SCAS (0 denotes inlier and 1 outlier)
 
 AttrSimilarity -- similarity for the network IDS alert attribute Attr (there are 34 attributes in total). Set to -1 if the attribute Attr is not set for the given signature, otherwise ranges from 0 to 1. The field indicates how often has the attribute value been observed in other alert groups from the same cluster (or in other outlier alert groups if the current alert group is an outlier) 
+
 ----------
 In order to use the ExtIP and IntIP fields during the experiments, the string tags extipN and intipN need to be replaced with IP addresses of your preference. Note that for using the IP address A.B.C.D as the field value, the integer representation of the IP address has to be provided: A * 256^3 + B * 256^2 + C * 256 + D. For example, to map the string tags extipN to the 10.0.0.0/8 network, so that extip1 -> 10.0.0.1, extip2 -> 10.0.0.2, etc., the following simple scheme can be employed: extipN -> 10 * 256^3 + N. As an alternative, you can generate a random IP address for each string tag or use any other method of your preference.
 
