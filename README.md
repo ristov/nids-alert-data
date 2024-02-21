@@ -4,7 +4,7 @@ NIDS Alert Group Data Set
 
 Introduction
 ------------
-This repository hosts the NIDS Alert Group Data Set (NIDSAGDS) that is stored in the file dataset-labeled-anon-ip.csv.bz2.
+This repository hosts the NIDS Alert Group Data Set that is stored in the file dataset-labeled-anon-ip.csv.bz2.
 
 The data set covers 60 days (January 2022 -- March 2022) and was produced with the customized version of the SCAS algorithm (https://github.com/ristov/nids-alert-proc). The data set was collected on the external network perimeter of a large institution and contains over 1.3 million data points. Each data point represents a group of one or more network IDS alerts generated for the same external IP address and for the same signature in a short time frame (the maximum size of the time frame is 5 minutes).
 
