@@ -29,7 +29,7 @@ AlertCount -- the number of alerts in the current alert group
 
 Proto -- numerical protocol ID (e.g., 6 denotes TCP and 17 UDP)
 
-ExtIP -- anonymized IP address of the external host (extipN, where N is a number that identifies the given IP address
+ExtIP -- anonymized IP address of the external host (extipN, where N is a number that identifies the given IP address)
 
 ExtPort -- port at the external host, set to -1 if alerts involved multiple external ports
 
